@@ -166,6 +166,22 @@ val array = ArrayBuffer("Billy", "Joe", "Thanos")
 
 > _Describe at least one contribution by the open source
 community written in the language._
+  * Kantan CSV 
+      * Is a CSV Handling Library in Scala
+      * helps by treating the csv data as a simple iterator
+      * Was created to help people using this data exchange format due to it being unpopular as of the moment
+      * Must use sbt buile file when using this library
+      * Current version is "0.5.0", which can be added to the sbt build file
+      * Also comes with a Default Parser
+>
+
+ ```scala
+ //What to include whenusing this library
+import java.io.File
+import kantan.csv._         // All kantan.csv types.
+import kantan.csv.ops._     // Enriches types with useful methods.
+import kantan.csv.generic._ // Automatic derivation of codecs.
+```
 
 # Analysis of the language
 
