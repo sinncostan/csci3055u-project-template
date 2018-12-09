@@ -37,10 +37,10 @@ var y = 1 //Initialized with a binding
 
 ```scala
 println("Final Project")
-	// => Final Project
+    // => Final Project
 
 println("The Result of x + y = " + (x + y)) //From the above val and var
-	// => The Result of x + y = 3
+    // => The Result of x + y = 3
 ```
 
 *Arrays*
@@ -51,12 +51,12 @@ val array = Array(1,3,5,7,9) //Simple Array Initialization
     // => 9
 
 var arrayStr = Array("Ken", "Randy") //Arrays Using Strings
-	println("Original_Array: " + arrayStr.mkString(", "))
-	// => Ken, Randy
+    println("Original_Array: " + arrayStr.mkString(", "))
+    // => Ken, Randy
 
 var arrayElement = arrayStr :+ "Jarek" //Appending the new Element for the Array
-println("Updated_Array: " + arrayElement.mkString(", ")
-	// => Ken, Randy, Jarek
+    println("Updated_Array: " + arrayElement.mkString(", ")
+    // => Ken, Randy, Jarek
 ```
 
 *Lists*
@@ -83,7 +83,7 @@ val map = Map("Bob" -> 20, "Rob" -> 30, "Billy" -> 40) //Immutable Map Initizliz
   //=> Ages: Bob -> 20, Rob -> 30, Billy -> 40
 
 val bobAge: Int = map("Bob") //Grabs values using keys
-println("Bob's Age: " + bobAge)
+  println("Bob's Age: " + bobAge)
   //=> Bob's Age: 20
 ```
 
