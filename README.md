@@ -117,8 +117,8 @@ for(forMap <- mapArr) { //For loop with iterating through a map
 ## About the tools
 
 > _To Run Scala_.
-  > - To Compile and Execute a Scala file, you need to hava the Java RunTime Environment and also Scala installed.
-  > - For Java, you can install it by installing the Java Development Kit (JDK), and for Scala you can get the latest vesrion on the Scala website.  
+  * To Compile and Execute a Scala file, you need to hava the Java RunTime Environment and also Scala installed.
+  * For Java, you can install it by installing the Java Development Kit (JDK), and for Scala you can get the latest vesrion on the Scala website.  
    * Once everything is Installed to Run the Scala File.
       *Type "scalac nameOfFile.scala" in the terminal in the correct Directory
       *Then Type "scala nameOfFile" in the terminal
