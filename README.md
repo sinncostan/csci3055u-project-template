@@ -129,20 +129,17 @@ for(forMap <- mapArr) { //For loop with iterating through a map
    * Another option is to install the Scala Build Tool (SBT) which makes a complete scala project 
       * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
       * First type "sbt" to run the project and then "run" to run the scala file
+      
 ```scala
-.
 |-- build.sbt
 |-- project
-|   |-- Dependencies.scala
 |   |-- build.properties
 |-- src
     |-- main
-    ?   |-- scala
-    |       |-- example
+    |   |-- scala
     |           |-- Main.scala
     |-- test
         |-- scala
-            |-- example
                 |-- Main.scala  
 ```
  >
