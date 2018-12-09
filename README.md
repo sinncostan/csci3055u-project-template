@@ -9,9 +9,11 @@
 >
 > - History
 >
->Scala is a modern programming language which shares features of both object-oriented and functional programming. Scala is an object-oriented programming language in the way that all values are objects, and is decribed by classes and traits. Scala is also a functional in the way that every function is also a value and scala provides lightweight syntax for defining functions. Also allows functions to be nested and supports higher-ordered functions with its pattern-matching support. It also run alongside the Java Runtime Environment (JRE), and shares many similar features and processes such as Java.
+> Scala is a modern programming language which shares features of both object-oriented and functional programming. Scala is an object-oriented programming language in the way that all values are objects, and is decribed by classes and traits. Scala is also a functional in the way that every function is also a value and scala provides lightweight syntax for defining functions. Also allows functions to be nested and supports higher-ordered functions with its pattern-matching support. It also run alongside the Java Runtime Environment (JRE), and shares many similar features and processes such as Java.
   
 > - Some interesting features
+>
+> The many interesting features that scala inclues Type Immutability, Lazy computation, Case classes and Pattern Matching, String interpolation, Higher order functions, Traits, and even the Rich Collection set. With these features you can make use of scala for its unique coding style. Some features are especially interesting such as the Rich Set of Collection which contains classes and traits to collect all forms of data, and the Collections can be mutable or immutable. With it you can use it to your own preference along with the other features.
 
 ## About the syntax
 
