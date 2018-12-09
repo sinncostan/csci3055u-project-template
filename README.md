@@ -234,31 +234,31 @@ document_.
 > 1) The style of programming supported by the language: functional vs procedural
 programming
 
-> The support for Scala is much similar to Clojure asit is right now, but they differ in the sense that Scala also is Object-Oriented since it is sharing many functionalities from that of Java. Manty would say Clojure on one of the best hybrid languages since you can cross between Object-Oriented and Functional Programming to solve problems. Scala and Clojure also differ in static typing as Scala is a language with inferencing capabilities and has inheritence capabilities showing how well it is for Object-Oriented purposes.
+The support for Scala is much similar to Clojure asit is right now, but they differ in the sense that Scala also is Object-Oriented since it is sharing many functionalities from that of Java. Manty would say Clojure on one of the best hybrid languages since you can cross between Object-Oriented and Functional Programming to solve problems. Scala and Clojure also differ in static typing as Scala is a language with inferencing capabilities and has inheritence capabilities showing how well it is for Object-Oriented purposes.
 
 > 2) The ability to perform meta-programming such as macros
 
-> While Clojure makes good use of macros, Scala on the other hand had their issues with macros, as it is still an experimental feature which does not alway work. The developers of scala said they would release stable versions later on, but for now we would have to wait or try the experimental versions. For meta-programming in general there is a alernate way of doing it and it is to use Scalameta (which can be found on https://scalameta.org/) which is stable and works as long as you have the dependencies and run it through sbt. Macros just seem more pleasing in a Dynamic Type language like Clojure rather than a Static Type such as Scala in the end.
+While Clojure makes good use of macros, Scala on the other hand had their issues with macros, as it is still an experimental feature which does not alway work. The developers of scala said they would release stable versions later on, but for now we would have to wait or try the experimental versions. For meta-programming in general there is a alernate way of doing it and it is to use Scalameta (which can be found on https://scalameta.org/) which is stable and works as long as you have the dependencies and run it through sbt. Macros just seem more pleasing in a Dynamic Type language like Clojure rather than a Static Type such as Scala in the end.
 
 > 3) Symbol resolution and its support for closure
 
 > 4) Scoping rules supported by the language: lexical vs dynamic scoping
 
-> While CLojure as a language has both Lexical and Dynamic scoping, Scala only has one of the two which is Lexical scoping. Scala uses two symbols being ```scala var``` and ```scala val``` which are the two possible bindings. Since Scala uses a static tye of architecture it would only result to the scoping being Lexical as they only can get referenced and updated within a block of code
+While CLojure as a language has both Lexical and Dynamic scoping, Scala only has one of the two which is Lexical scoping. Scala uses two symbols being ```scala var``` and ```scala val``` which are the two possible bindings. Since Scala uses a static tye of architecture it would only result to the scoping being Lexical as they only can get referenced and updated within a block of code
 
 > 5) Functional programming constructs either as part of the language or supported by the standard library of the runtime.
 
-> 
+
 
 > 6) Its type system: static vs dynamic types
 
-> While Clojure is based of a dynamic type of language, Scala is more of a Static language. While Scala does give you the feeling of a Dynamic type, it shines out more as a Static type by getting static type benefits. Static Types is known for being better because of how it is capable of noticing symbol types and can debug them with ease.
+While Clojure is based of a dynamic type of language, Scala is more of a Static language. While Scala does give you the feeling of a Dynamic type, it shines out more as a Static type by getting static type benefits. Static Types is known for being better because of how it is capable of noticing symbol types and can debug them with ease.
 
 > 7) Strengths and weaknesses of the language
 
 > Strengths and Weaknesses
->
->
+
+
  * Strengths
       * Scala is easier to learn (if coming from an Object-Oriented background)
         * Java, C++, Python, etc.
@@ -286,4 +286,4 @@ programming
       * As a hybrid language it can make types such as Static vs Dynamic harder to understanf
       * Lacks good tail-recursions since it runs on Java Virtual Machine (JVM)
       * Scala developers are still little (while Object-Ortiented has been around, Functional Programming is still new) 
-      >
+      
