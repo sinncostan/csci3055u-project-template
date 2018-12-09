@@ -67,24 +67,24 @@ val list = List(1,3,5,7,9) //Initialized List
     // => 9
 
 var list = List("Ken", "Randy") //Initialized Immutable List
-  println("Original_List: " + list.mkString(", "))
-  // => Ken, Randy
+    println("Original_List: " + list.mkString(", "))
+    // => Ken, Randy
 
 var list2 = "Jarek" :: list //Appends the list with the new Element
-  println("Updated_List: " + list2.mkString(", "))
-  // => Jarek, Ken, Randy
+    println("Updated_List: " + list2.mkString(", "))
+    // => Jarek, Ken, Randy
 ```
 
 *Maps*
 
 ```scala
 val map = Map("Bob" -> 20, "Rob" -> 30, "Billy" -> 40) //Immutable Map Initizlization
-  println("Ages: " + map.mkString(", "))
-  //=> Ages: Bob -> 20, Rob -> 30, Billy -> 40
+    println("Ages: " + map.mkString(", "))
+    //=> Ages: Bob -> 20, Rob -> 30, Billy -> 40
 
 val bobAge: Int = map("Bob") //Grabs values using keys
-  println("Bob's Age: " + bobAge)
-  //=> Bob's Age: 20
+    println("Bob's Age: " + bobAge)
+    //=> Bob's Age: 20
 ```
 
 *While Loops(Conditionals)*
