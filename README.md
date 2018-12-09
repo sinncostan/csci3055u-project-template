@@ -129,7 +129,23 @@ for(forMap <- mapArr) { //For loop with iterating through a map
    * Another option is to install the Scala Build Tool (SBT) which makes a complete scala project 
       * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
       * First type "sbt" to run the project and then "run" to run the scala file
- > 
+```scala
+.
+|-- build.sbt
+|-- project
+|   |-- Dependencies.scala
+|   |-- build.properties
+|-- src
+    |-- main
+    ?   |-- scala
+    |       |-- example
+    |           |-- Main.scala
+    |-- test
+        |-- scala
+            |-- example
+                |-- Main.scala  
+```
+ >
 
 ## About the standard library
 
@@ -166,7 +182,7 @@ val array = ArrayBuffer("Billy", "Joe", "Thanos")
 
 > _Describe at least one contribution by the open source
 community written in the language._
-  * Kantan CSV 
+  * Kantan CSV (would visit https://github.com/nrinaudo/kantan.csv for more information)
       * Is a CSV Handling Library in Scala
       * helps by treating the csv data as a simple iterator
       * Was created to help people using this data exchange format due to it being unpopular as of the moment
