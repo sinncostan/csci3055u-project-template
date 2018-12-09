@@ -118,9 +118,9 @@ for(forMap <- mapArr) { //For loop with iterating through a map
 
 > _Describe the compiler or interpreter needed_.
 >
-  >To Compile and Execute a Scala file, you need to hava the Java RunTime Environment and also Scala installed
+  > - To Compile and Execute a Scala file, you need to hava the Java RunTime Environment and also Scala installed
   >
-  >For Java, you can install it by installing the Java Development Kit (JDK), and for Scala you can get the latest vesrion on the Scala website.  
+  > - For Java, you can install it by installing the Java Development Kit (JDK), and for Scala you can get the latest vesrion on the Scala website.  
   >
 
 ## About the standard library
