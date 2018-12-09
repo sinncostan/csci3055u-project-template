@@ -12,18 +12,19 @@
 
 ## About the syntax
 
-> _give some code snippet of the language_
+> _Basic Syntax of Scala_
+
+*Println Statement*
+
+```scala
+println("Final Project")
+```
 
 *Val*
 
 ```scala
 val x = 1 //Initialized with only one binding
     x = 3 //Will not work since val is bound to one binding
-```
-*Var*
-
-```scala
-println("Final Project")
 ```
 
 *Var*
