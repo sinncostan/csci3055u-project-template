@@ -126,9 +126,9 @@ for(forMap <- mapArr) { //For loop with iterating through a map
   >
   
 > _Another Option for Running Scala is with SBT_.
-   *Another option is to install the Scala Build Tool (SBT) which makes a complete scala project 
-   *If you are using SBT, you can run the command in the terminal at the root of the project directory with:
-   *First type "sbt" to run the project and then "run" to run the scala file
+   * Another option is to install the Scala Build Tool (SBT) which makes a complete scala project 
+      * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
+      * First type "sbt" to run the project and then "run" to run the scala file
  > 
 
 ## About the standard library
