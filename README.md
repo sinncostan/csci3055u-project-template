@@ -1,11 +1,11 @@
-# _Your project title_
+# _CSCI 3055U Final Project_
 
 - _Sinthooran Ravinathan_
 - _sinthooran.ravinathan@uoit.net_
 
-## About the language
+## About Scala
 
-> _Describe the language_
+> _The language of choice is Scala_
 >
 > - History
 > - Some interesting features
@@ -14,12 +14,37 @@
 
 > _give some code snippet of the language_
 
-*Let form*
+*Val*
 
-```clojure
-(let [x 10
-      y 20]
-  (+ x y))
+```scala
+val x = 1 //Initialized with only one binding
+    x = 3 //Will not work since val is bound to one binding
+```
+*Var*
+
+```scala
+println("Final Project")
+```
+
+*Var*
+
+```scala
+var y = 1 //Initialized with a binding
+    y = 3 //bindings can be updated
+```
+
+*Arrays*
+
+```scala
+val array = Array(1,3,5,7,9) //Initialized Array
+    println("Last element in this array is: " + array(4))
+```
+
+*List*
+
+```scala
+val list = List(1,3,5,7,9) //Initialized List
+    println("Last element in this list is: " + list(4))
 ```
 
 ## About the tools
