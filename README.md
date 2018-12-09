@@ -257,7 +257,9 @@ programming
 > 7) Strengths and weaknesses of the language
 
 > Strengths and Weaknesses
-  * Strengths
+>
+>
+ * Strengths
       * Scala is easier to learn (if coming from an Object-Oriented background)
         * Java, C++, Python, etc.
       * A good represeentation of a Hybrid Language
@@ -278,7 +280,7 @@ programming
         * Scala IDE for Eclipse
         * Emacs
         * Atoms
-        
+      
   * Weaknesses
       * Its hard to learn both and apply both Object-Oriented and Functional Programming when coding in Scala
       * As a hybrid language it can make types such as Static vs Dynamic harder to understanf
