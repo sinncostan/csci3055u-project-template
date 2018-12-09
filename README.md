@@ -14,38 +14,99 @@
 
 > _Basic Syntax of Scala_
 
-*Println Statement*
-
-```scala
-println("Final Project")
-```
-
-*Val*
+*Vals*
 
 ```scala
 val x = 1 //Initialized with only one binding
-    x = 3 //Will not work since val is bound to one binding
+    //x = 3 //Will not work since val is bound to one binding
+
+    => 1
+
 ```
 
-*Var*
+*Vars*
 
 ```scala
 var y = 1 //Initialized with a binding
     y = 3 //bindings can be updated
+
+    // => 3
+```
+
+*Println Statement*
+
+```scala
+println("Final Project")
+	// => Final Project
+
+println("The Result of x + y = " + (x + y)) //From the above val and var
+	// => The Result of x + y = 3
 ```
 
 *Arrays*
 
 ```scala
-val array = Array(1,3,5,7,9) //Initialized Array
+val array = Array(1,3,5,7,9) //Simple Array Initialization
     println("Last element in this array is: " + array(4))
+    // => 9
+
+var arrayStr = Array("Ken", "Randy") //Arrays Using Strings
+	println("Original_Array: " + arrayStr.mkString(", "))
+	// => Ken, Randy
+
+var arrayElement = arrayStr :+ "Jarek" //Appending the new Element for the Array
+println("Updated_Array: " + arrayElement.mkString(", ")
+	// => Ken, Randy, Jarek
 ```
 
-*List*
+*Lists*
 
 ```scala
 val list = List(1,3,5,7,9) //Initialized List
     println("Last element in this list is: " + list(4))
+    // => 9
+
+var list = List("Ken", "Randy") //Initialized Immutable List
+  println("Original_List: " + list.mkString(", "))
+  // => Ken, Randy
+
+var list2 = "Jarek" :: list //Appends the list with the new Element
+  println("Updated_List: " + list2.mkString(", "))
+  // => Jarek, Ken, Randy
+```
+
+*Maps*
+
+```scala
+val map = Map("Bob" -> 20, "Rob" -> 30, "Billy" -> 40) //Immutable Map Initizlization
+  println("Ages: " + map.mkString(", "))
+  //=> Ages: Bob -> 20, Rob -> 30, Billy -> 40
+
+val bobAge: Int = map("Bob") //Grabs values using keys
+println("Bob's Age: " + bobAge)
+  //=> Bob's Age: 20
+```
+
+*While Loops(Conditionals)*
+
+```scala
+var z = 10
+while(z <= 10 && z > 0 ) { //While Loop with condition
+    z -= 1
+    println(z)
+}
+```
+
+*For Loops(Conditionals)*
+
+```scala
+for(i <- 0 to 10) //Basic For Loop
+   println(i)
+
+val mapArr = Map("Bob" -> 20, "Rob" -> 30, "Billy" -> 40)
+for(forMap <- mapArr) { //For loop with iterating through a map
+    println(forMap)
+}
 ```
 
 ## About the tools
