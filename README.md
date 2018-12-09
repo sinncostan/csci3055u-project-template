@@ -119,28 +119,38 @@ for(forMap <- mapArr) { //For loop with iterating through a map
 > _To Run Scala_.
   * To Compile and Execute a Scala file, you need to hava the Java RunTime Environment and also Scala installed.
   * For Java, you can install it by installing the Java Development Kit (JDK), and for Scala you can get the latest vesrion on the Scala website.  
+     * To install the latest version of Java, in your terminal you can type `sudo apt install openjdk-11-jdk`
+     * To intall the latest version of Scala, you can either:
+        * Visit the scala website for the download (link is https://www.scala-lang.org/download/) and download the deb file
+        * Or can use the link and wget command `wget https://www.scala-lang.org/download/` and then install using `sudo dpkg -i scala-X.XX.X.deb`
+  
+  
    * Once everything is Installed to Run the Scala File.
-      * Type "scalac nameOfFile.scala" in the terminal in the correct Directory
-      * Then Type "scala nameOfFile" in the terminal
-      * By doing this it Should be able to run
+      * Type `scalac nameOfFile.scala` in the terminal in the correct Directory
+        * This will compile the file
+      * Then Type `scala nameOfFile` in the terminal
+        * This will execute the file
+      * By doing this it Should be able to run the File and see Results
   >
   
 > _Another Option for Running Scala is with SBT_.
    * Another option is to install the Scala Build Tool (SBT) which makes a complete scala project 
+      * To create an SBT Project you would want to type `sbt new scala/hello-world.g8`
       * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
       * First type "sbt" to run the project and then "run" to run the scala file
       
 ```scala
-|-- build.sbt
-|-- project
-|   |-- build.properties
-|-- src
-    |-- main
-    |   |-- scala
-    |           |-- Main.scala
-    |-- test
-        |-- scala
-                |-- Main.scala  
+hello-world
+  |-- build.sbt
+  |-- project
+  |   |-- build.properties
+  |-- src
+      |-- main
+      |   |-- scala
+      |           |-- Main.scala
+      |-- test
+          |-- scala
+                  |-- Main.scala  
 ```
  >
 
