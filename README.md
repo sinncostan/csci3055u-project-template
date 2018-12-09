@@ -135,7 +135,13 @@ for(forMap <- mapArr) { //For loop with iterating through a map
   
 > _Another Option for Running Scala is with SBT_.
    * Another option is to install the Scala Build Tool (SBT) which makes a complete scala project 
+      * To Download visit https://www.scala-lang.org/download/and find the download sbt or visit https://www.scala-sbt.org/ for a direct download
+      * To Install SBT:
+        * Follow the commands given to you in linux (Windows and Mac may be different)
+        * After those instructions have been followed try `sudo apt-get install sbt` to install sbt
       * To create an SBT Project you would want to type `sbt new scala/hello-world.g8`
+        * This is a github template which is a good way to start off a project
+        * Much similar to Leinigen's Project Creation for Clojure
       * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
       * First type "sbt" to run the project and then "run" to run the scala file
       
@@ -210,5 +216,10 @@ import kantan.csv.generic._ // Automatic derivation of codecs.
 
 > _Organize your report according to the project description
 document_.
+
+> 1) The style of programming supported by the language: functional vs procedural
+programming
+
+> The support for Scala is much similar to Clojure asit is right now, but they differ in the sense that Scala also is Object-Oriented since it is sharing many functionalities from that of Java. Manty would say Clojure on one of the best hybrid languages since you can cross between Object-Oriented and Functional Programming to solve problems.
 
 
