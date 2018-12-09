@@ -138,6 +138,32 @@ for(forMap <- mapArr) { //For loop with iterating through a map
 > _Give some examples of the functions and data structures
 > offered by the standard library_.
 
+*Mutable Maps*
+
+```scala
+import scala.collection.mutable.Map
+
+val age = Map("Bob" -> 20, "Rob" -> 30, "Billy" -> 40)
+  age += ("Hob" -> 999)
+  age.remove("Bob")
+  age("Billy") = 90
+
+  println("Ages: " + age.mkString(", "))
+  // => Ages: Hob -> 999, Billy -> 90, Rob -> 30
+
+```
+
+*Mutable ArrayBuffers* 
+```scala
+import scala.collection.mutable.ArrayBuffer
+
+val array = ArrayBuffer("Billy", "Joe", "Thanos")
+  array += "Jeremy"
+
+  println(array.mkString(", "))
+  // => Billy, Joe, Thanos, Jeremy
+```
+
 ## About open source library
 
 > _Describe at least one contribution by the open source
