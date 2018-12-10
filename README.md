@@ -273,7 +273,7 @@ The support for Scala is much similar to Clojure asit is right now, but they dif
 
 While Clojure makes good use of macros, Scala on the other hand had their issues with macros, as it is still an experimental feature which does not alway work. The developers of scala said they would release stable versions later on, but for now we would have to wait or try the experimental versions. For meta-programming in general there is a alernate way of doing it and it is to use Scalameta (which can be found on https://scalameta.org/) which is stable and works as long as you have the dependencies and run it through sbt. Macros just seem more pleasing in a Dynamic Type language like Clojure rather than a Static Type such as Scala in the end.
 
-* An Example for Macros *
+*An Example for Macros*
 ```scala
 def m(x: T): R = macro implRef
 ```
@@ -282,6 +282,7 @@ def m(x: T): R = macro implRef
 
 Scala is capable of using Closure as symbol resolution shows how it does not know what a symbol represents, but can return the values  which makes closures of good use in Scala.
 
+*An Example of Closure in Scala*
 ```scala
 object Demo {
    def main(args: Array[String]) {
@@ -297,6 +298,7 @@ object Demo {
 
 While CLojure as a language has both Lexical and Dynamic scoping, Scala only has one of the two which is Lexical scoping. Scala uses two symbols being ```var``` and ```val ``` which are the two possible bindings. Since Scala uses a static tye of architecture it would only result to the scoping being Lexical as they only can get referenced and updated within a block of code
 
+*An Example of Scopes in Scala*
 ```scala
 val delta = 1e-10 // a global constant
 
@@ -324,7 +326,6 @@ While Clojure is based of a dynamic type of language, Scala is more of a Static 
 > 7) Strengths and weaknesses of the language
 
 > Strengths and Weaknesses
-
 
  * Strengths
       * Scala is easier to learn (if coming from an Object-Oriented background)
