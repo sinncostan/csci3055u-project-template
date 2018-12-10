@@ -289,7 +289,7 @@ object Demo {
 
 > 4) Scoping rules supported by the language: lexical vs dynamic scoping
 
-While CLojure as a language has both Lexical and Dynamic scoping, Scala only has one of the two which is Lexical scoping. Scala uses two symbols being ```scala var ``` and ```scala val ``` which are the two possible bindings. Since Scala uses a static tye of architecture it would only result to the scoping being Lexical as they only can get referenced and updated within a block of code
+While CLojure as a language has both Lexical and Dynamic scoping, Scala only has one of the two which is Lexical scoping. Scala uses two symbols being ```var``` and ```val ``` which are the two possible bindings. Since Scala uses a static tye of architecture it would only result to the scoping being Lexical as they only can get referenced and updated within a block of code
 
 ```scala
 val delta = 1e-10 // a global constant
