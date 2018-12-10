@@ -25,7 +25,7 @@
   (+ x y)
 ```  
 
-* In Scala*
+* In Scala *
 
 ```scala
   def addNums: Int = { //Scala does not have let statements but can mimic it in many ways
@@ -185,7 +185,6 @@ hello-world
 > offered by the standard library_.
 
 *Mutable Maps*
-
 ```scala
 import scala.collection.mutable.Map
 
@@ -196,7 +195,6 @@ val age = Map("Bob" -> 20, "Rob" -> 30, "Billy" -> 40)
 
   println("Ages: " + age.mkString(", "))
   // => Ages: Hob -> 999, Billy -> 90, Rob -> 30
-
 ```
 
 *Mutable ArrayBuffers* 
@@ -207,6 +205,16 @@ val array = ArrayBuffer("Billy", "Joe", "Thanos")
   array += "Jeremy"
 
   println(array.mkString(", "))
+  // => Billy, Joe, Thanos, Jeremy
+```
+
+```scala
+import scala.collection.mutable.ListBuffer
+
+val list = ListBuffer("Billy", "Joe", "Thanos")
+  list += "Jeremy"
+
+  println(list.mkString(", "))
   // => Billy, Joe, Thanos, Jeremy
 ```
 
@@ -259,13 +267,47 @@ The support for Scala is much similar to Clojure asit is right now, but they dif
 
 While Clojure makes good use of macros, Scala on the other hand had their issues with macros, as it is still an experimental feature which does not alway work. The developers of scala said they would release stable versions later on, but for now we would have to wait or try the experimental versions. For meta-programming in general there is a alernate way of doing it and it is to use Scalameta (which can be found on https://scalameta.org/) which is stable and works as long as you have the dependencies and run it through sbt. Macros just seem more pleasing in a Dynamic Type language like Clojure rather than a Static Type such as Scala in the end.
 
+* An Example for Macros *
+```scala
+def m(x: T): R = macro implRef
+```
+
 > 3) Symbol resolution and its support for closure
+
+Scala is capable of using Closure as symbol resolution shows how it does not know what a symbol represents, but can return the values  which makes closures of good use in Scala.
+
+```scala
+object Demo {
+   def main(args: Array[String]) {
+      println( "multiplier(1) value = " +  multiplier(1) )
+      println( "multiplier(2) value = " +  multiplier(2) )
+   }
+   var factor = 3
+   val multiplier = (i:Int) => i * factor
+}
+```  
 
 > 4) Scoping rules supported by the language: lexical vs dynamic scoping
 
 While CLojure as a language has both Lexical and Dynamic scoping, Scala only has one of the two which is Lexical scoping. Scala uses two symbols being ```scala var``` and ```scala val``` which are the two possible bindings. Since Scala uses a static tye of architecture it would only result to the scoping being Lexical as they only can get referenced and updated within a block of code
 
+```scala
+val delta = 1e-10 // a global constant
+
+def isSmall(x: Double) = { 
+   math.abs(x) <= delta
+}
+
+def testIsSmall = { //Lexical Scope for delta is 1e-10
+   val delta = 100
+   isSmall(delta/2) // 50 <= delta?
+  }
+}
+```
+
 > 5) Functional programming constructs either as part of the language or supported by the standard library of the runtime.
+
+Scala supports conepts such as Immutable data, Functions, Lambda Calculus and Closure scopes (Lexical Scoping) and functional values and objects which help show that these are objects and that you can treat them the same as how in clojure, you can simply call the functions as values. 
 
 
 
