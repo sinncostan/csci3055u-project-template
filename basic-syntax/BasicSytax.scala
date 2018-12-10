@@ -1,7 +1,5 @@
 //Basic Syntax
 
-//Values
-
 //Basics of Scala in a Real World App
 
 object BasicSyntax extends App { //Initializing the class
