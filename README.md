@@ -163,9 +163,14 @@ for(forMap <- mapArr) { //For loop with iterating through a map
         * Much similar to Leinigen's Project Creation for Clojure
       * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
       * First type "sbt" to run the project and then "run" to run the scala file
-      
+
+
+* SBT Directory Tree *
+
+> Some Target subdirectories are generated, but we would usually ignore those.
+
 ```scala
-hello-world
+project-name
   |-- build.sbt
   |-- project
   |   |-- build.properties
