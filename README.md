@@ -213,10 +213,10 @@ val array = ArrayBuffer("Billy", "Joe", "Thanos")
 import scala.collection.mutable.ListBuffer
 
 val list = ListBuffer("Billy", "Joe", "Thanos")
-  list += "Jeremy"
+  list += "Ladidadida"
 
-  println(list.mkString(", "))
-  // => Billy, Joe, Thanos, Jeremy
+  println("Updated List: " + list.mkString(", "))
+  // => Billy, Joe, Thanos, Ladidadida
 ```
 
 ## About open source library
