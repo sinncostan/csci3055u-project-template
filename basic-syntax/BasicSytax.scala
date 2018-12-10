@@ -1,6 +1,6 @@
 //Basic Syntax
 
-//Basics of Scala in a Real World App
+//Basics of Scala 
 
 object BasicSyntax extends App { //Initializing the class
   println("Hello, World!" + "\n") //The printline statment
