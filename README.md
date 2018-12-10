@@ -165,7 +165,7 @@ for(forMap <- mapArr) { //For loop with iterating through a map
       * First type "sbt" to run the project and then "run" to run the scala file
 
 
-* SBT Directory Tree *
+*SBT Directory Tree*
 
 > Some Target subdirectories are generated, but we would usually ignore those.
 
