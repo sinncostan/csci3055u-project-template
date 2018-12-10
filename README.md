@@ -208,6 +208,7 @@ val array = ArrayBuffer("Billy", "Joe", "Thanos")
   // => Billy, Joe, Thanos, Jeremy
 ```
 
+*Mutable ListBuffers*
 ```scala
 import scala.collection.mutable.ListBuffer
 
