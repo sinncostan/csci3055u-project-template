@@ -22,7 +22,8 @@
 ```clj
 (let [x 89
       y 90]
-  (+ x y))```
+  (+ x y)
+```  
 
 * In Scala*
 
