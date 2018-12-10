@@ -17,6 +17,24 @@
 
 ## About the syntax
 
+*In Clojure*
+
+```clj
+(let [x 89
+      y 90]
+  (+ x y))```
+
+* In Scala*
+
+```scala
+  def addNums: Int = { //Scala does not have let statements but can mimic it in many ways
+    var x = 89
+    var y = 90
+    x + y
+  }
+  println(addNums)
+}
+```
 > _Basic Syntax of Scala_
 
 *Vals*
