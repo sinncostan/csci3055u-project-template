@@ -163,6 +163,13 @@ for(forMap <- mapArr) { //For loop with iterating through a map
         * Much similar to Leinigen's Project Creation for Clojure
       * If you are using SBT, you can run the command in the terminal at the root of the project directory with:
       * First type "sbt" to run the project and then "run" to run the scala file
+ 
+>_IntelliJ IDEA from JetBrains also offers a plugin for Scala_.
+   * To get the plugin, first launch IntelliJ IDEA
+      * Then enter the settings and then plugins
+      * In Plugins go into the Jetbrains Plugins
+      * Search for Scala and then install the plugin
+      * Once installed restart the IDE and then create your first Scala Project
 
 
 *SBT Directory Tree*
